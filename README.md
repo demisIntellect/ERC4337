@@ -39,12 +39,27 @@
 ## Usecases
 
 1. **Third party gas payments**
-
+Make sure to set the correct ERC20 and check the estimate-gas.ts private keys and chains selected
 2. **Account Creation**
-
+You can use any provider you want here whether it is stackup or alchemy or zerodev, it should work with either one. Make sure to adjust the chain and number of accounts you need + fund them afterwards.
 3. **Transaction monitoring and sending**
-
+Transaction monitoring can be done through the dashboard https://dashboard.zerodev.app (alchemy and stackup can also be used) and there is a script for sending tranasctions both in the full tutorial folder and the send-transactions folder.
 4. **Multi Signature Authentication**
 
 5. **Transaction batching**
 
+## Adittional functionality 
+
+**Embedded Accounts**
+1. **Create wallets using the create account functionality of the contract**
+
+2. **Create ENS names if needed **
+
+3. **Fund wallets and accounts as needed **
+4. **Set up a Wallet connect script for embedded accounts or follow the second tutorial listed below by dynamic**
+https://docs.dynamic.xyz/sign-in-sign-up/overview
+https://portal.thirdweb.com/connect/embedded-wallet/overview
+
+**Fast Deployment/Shortcut for non developers**
+Follow the instructions in the link below to deploy your own ERC4337 contract without any code and customise it to suit your needs (includes embedded account and gas fee sponsorship)
+https://thirdweb.com/thirdweb.eth/AccountFactory
