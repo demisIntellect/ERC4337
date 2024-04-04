@@ -13,7 +13,7 @@ if (!process.env.ZERODEV_PROJECT_ID) {
 const BUNDLER_RPC = `https://rpc.zerodev.app/api/v2/bundler/${process.env.ZERODEV_PROJECT_ID}`
 const PAYMASTER_RPC = `https://rpc.zerodev.app/api/v2/paymaster/${process.env.ZERODEV_PROJECT_ID}`
 
-// The NFT contract we will be interacting with
+// The NFT contract we will be interacting with, this can be another contract you deploy
 const contractAddress = '0x34bE7f35132E97915633BC1fc020364EA5134863'
 const contractABI = parseAbi([
   'function mint(address _to) public',
