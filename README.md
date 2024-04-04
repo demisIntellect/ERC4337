@@ -1,15 +1,13 @@
-# ZeroDev Examples
+# ERC4337 Template
 
 ## Setup and Installation
-
-Follow these steps to get this project up and running on your local machine:
 
 1. **Clone the repository**
 
    Use the following command to clone this repository to your local machine:
 
    ```bash
-   git clone git@github.com:zerodevapp/zerodev-examples.git
+   git clone git@github.com:demisIntellect/ERC4337
    ```
 
 2. **Install dependencies**
@@ -17,7 +15,7 @@ Follow these steps to get this project up and running on your local machine:
    Navigate to the project directory and install the dependencies:
 
    ```bash
-   cd zerodev-examples
+   cd ERC4337
    npm install
    ```
 
@@ -36,3 +34,17 @@ Follow these steps to get this project up and running on your local machine:
    ```bash
    npx ts-node path/to/script.ts
    ```
+
+
+## Usecases
+
+1. **Third party gas payments**
+
+2. **Account Creation**
+
+3. **Transaction monitoring and sending**
+
+4. **Multi Signature Authentication**
+
+5. **Transaction batching**
+
