@@ -23,7 +23,7 @@ This repo acts as a starting template with various ERC 4337 examples. The repo i
 
 3. **Setup environment variables**
 
-   Copy the `.env.example` file to `.env` and fill in the required values (most examples only require a few of these env vars)
+   Copy the `.env.example` file to `.env` and fill in the required values (most examples only require a few of these env vars). Some of these variables such as the Project ID can be taken from the zerodev dashboard so I would suggest you start with that first: http://dashboard.zerodev.app
 
    ```bash
     cp .env.example .env
@@ -50,6 +50,7 @@ Transaction monitoring can be done through the dashboard https://dashboard.zerod
 
 5. **Transaction batching**
 
+
 ## Adittional functionality 
 
 **Embedded Accounts**
@@ -65,3 +66,5 @@ https://portal.thirdweb.com/connect/embedded-wallet/overview
 **Fast Deployment/Shortcut for non developers**
 Follow the instructions in the link below to deploy your own ERC4337 contract without any code and customise it to suit your needs (includes embedded account and gas fee sponsorship)
 https://thirdweb.com/thirdweb.eth/AccountFactory
+
+
