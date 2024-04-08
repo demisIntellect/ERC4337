@@ -1,5 +1,7 @@
 # ERC4337 Template
 
+This repo acts as a starting template with various ERC 4337 examples. The repo includes scripts for creating accounts, making transfers, sponsoring gas fees and using the dashboard of Zerodev (you can also use stackup or alchemy instead). The repo is primarily used for account abstraction and developers can improve upon the scripts provided to create more complex protocols such as having embedded social accounts, creating exchanges with gas sponsorships, creating a unique whitelist contract and more!
+
 ## Setup and Installation
 
 1. **Clone the repository**
